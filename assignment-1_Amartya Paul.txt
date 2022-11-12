@@ -1,0 +1,143 @@
+1>
+Because they are not written in machine-readable language . They are written in human understandable language and behind the scenes interpreter translates it into  machine-readable byte code.
+
+2>
+Python is a dynamically typed language because it doesn’t know about the type of the variable until the code is run. So declaration of variable is of no use.
+
+3>
+Advantages of Python
+1. Easy to Read, Learn and Write
+2. Improved Productivity
+3. Interpreted Language
+4. Dynamically Typed
+
+Disadvantages of Python
+1. Slow Speed
+2. Not Memory Efficient
+3. Runtime Errors
+As we know Python is a dynamically typed language so the data type of a variable can change anytime. A variable containing integer number may hold a string in the future, which can lead to Runtime Errors.
+
+4>
+web development,Application Development ,data analysis,data engineering , artificial intelligence, machine learning and deep learning
+
+5>
+A Python Variables is only a name given to a memory location, all the operations done on the variable effects that memory location
+declaration: variable_name = assigned_value  e.g,	x = 10
+
+6>
+input()
+
+7>
+By default, input() function returns a string
+
+8>
+explicitly changing the data type
+
+9>
+input().split(separator, maxsplit)  
+by default separator for split is space
+
+10>
+Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier.
+
+11>
+We cannot use a keyword as a variable name, function name or any other identifier. Keywords are reserved words that have a special meaning to the Python compiler.
+ If I use 'and' as a vairable name i.e, and =10 . In this case the compiler get confused whether to treat and as a logical operator or variable .
+ 
+12>
+Indentation refers to the spaces at the beginning of a code line. Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code.
+
+13>
+print() function
+
+14>
+Operators are used to perform operations on variables and values.
+e.g, print(10 + 5)
++ is the operator and 10 & 5 are operands
+
+15>
+The division operator / perform the mathematical operation division
+x = 17
+y = 2
+
+print(x / y)
+o/p : 8.5
+
+the floor division // rounds the result down to the nearest whole number
+e.g,
+x = 17
+y = 2
+
+print(x // y)
+o/p : 8
+
+16>
+print('''
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+''')
+
+17>
+num = int(input("type a number you whant to check "))
+if num%2 ==0:
+    print("your number is even")
+else:
+    print("your number is odd")
+	
+18>
+The logical operators and, or and not are also referred to as boolean operators.
+
+19>
+1
+0
+False
+1
+
+20>
+The if statement is a conditional statement in python, that is used to determine whether a block of code will be executed or not.
+
+21>
+If : For implementing a conditional statement
+elif : If we need to check for multiple conditional staements
+else : used when the if condition failed  and the code execution take place from code inside else block
+
+22>
+age = int(input("Please enter your age"))
+if age >=18:
+    print("I can vote")
+else:
+    print("I can't vote")
+
+23>
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+sum =0
+for i in numbers:
+    
+    if i%2==0 :
+        sum += i
+print(sum)
+
+24>
+a,b,c = input("enter 3 numbers").split()
+if a>=b and a>=c:
+    print("highest number is:",a)
+elif b>=c and b>=a:
+    print("highest number is:",b)
+else:
+    print("highest number is:",c)
+	
+25>
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+for i in numbers:
+    if i%5 ==0 :
+        if i> 150 and i<=500:
+            continue
+        elif i>500:
+            break
+        else :
+            print(i)
+        
